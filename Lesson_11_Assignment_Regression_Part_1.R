@@ -1,4 +1,4 @@
-# Lesson 1 Assignment - Regression Part 1
+# Lesson 11 Assignment - Regression Part 1
 
 # Your assignment is to write the commands instructed in the comments below. To run your
 # commands, simply hit Ctrl+Enter (command+return on a MAC) when the cursor is on that 
