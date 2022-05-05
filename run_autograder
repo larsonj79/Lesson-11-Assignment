@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+# Set up autograder files
+
+cp /autograder/submission/Lesson_11_Assignment_Regression_Part_1.R /autograder/source/Lesson_11_Assignment_Regression_Part_1.R
+
+cd /autograder/source
+
+
+Rscript grade_one_submission.r 
