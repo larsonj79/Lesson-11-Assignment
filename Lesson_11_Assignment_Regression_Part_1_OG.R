@@ -5,11 +5,12 @@
 # command line. You can also type commands directly into the Console below, but you must
 # save them in this file for your assignment.
 
-# Do not change these four lines or GradeScope will not work
+# Do not change these five lines or GradeScope will not work
 library(readxl)
 library(dplyr)
 library(ggplot2)
 fs <- read_excel("Father-son-height.xlsx")
+fs <- data.frame(fs)
 
 ## Father Son Height
 

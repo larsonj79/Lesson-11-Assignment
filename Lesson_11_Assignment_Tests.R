@@ -8,6 +8,7 @@ library(readxl)
 library(ggplot2)
 library(dplyr)
 fskey <- read_excel("Father-son-height.xlsx")
+fskey <- data.frame(fskey)
 
 plotfskey <- ggplot(fskey, aes(x = Father, y = Son)) +
   geom_point()
@@ -19,7 +20,7 @@ plotfs2key <- ggplot(fskey, aes(x = Father, y = Son)) +
 plotfs3key <- ggplot(fskey, aes(x = Father, y = Son)) +
   geom_point() +
   geom_abline(slope = 1.025627, intercept = -.737, color = "red") +
-  geom_abline(slope = htslope, intercept = htint)
+  geom_abline(slope = .5140059, intercept = 33.8928)
 
 test_that("Q1 plot (visible)", {
   
@@ -111,3 +112,4 @@ test_that("Q23 (visible)", {
   expect_equal(as.numeric(predson[5]),  79.12532, tolerance = 1e-3)
 
 })
+

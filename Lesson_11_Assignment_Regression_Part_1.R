@@ -10,6 +10,7 @@ library(readxl)
 library(dplyr)
 library(ggplot2)
 fs <- read_excel("Father-son-height.xlsx")
+fs <- data.frame(fs)
 
 ## Father Son Height
 
